@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "name": "Startup-Page",
+        "thumbnail": "./startup-page.jpg",
+        "type": "bootstrap",
+        "description": "Landing page and email subscription with bootstrap",
+        "url": "https://alexmonteil.github.io/startup-page/"
+    },
+
+    {
+        "id": "2",
+        "name": "Cosmic-Dream",
+        "thumbnail": "./cosmic-dream.jpg",
+        "type": "css",
+        "description": "Responsive UI with Grid and Flexbox",
+        "url": "https://alexmonteil.github.io/Cosmic-Dream/"
+    },
+
+    {
+        "id": "3",
+        "name": "Background-Generator",
+        "thumbnail": "./background-generator.jpg",
+        "type": "javascript",
+        "description": "Responsive and dynamic web application with javascript",
+        "url": "https://alexmonteil.github.io/background-generator/"
+    },
+
+    {
+        "id": "4",
+        "name": "Robofriends",
+        "thumbnail": "./robofriends.jpg",
+        "type": "react",
+        "description": "Dynamic web application with React.js",
+        "url": "https://alexmonteil.github.io/robofriends/public/index.html"
+    }
+]

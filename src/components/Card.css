@@ -1,0 +1,10 @@
+.cardstyle {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 16rem;
+    color: #fff;
+}
+
+.cardstyle:hover {
+    box-shadow: 0px 0px 15px 10px #000;
+    transition: linear 0.5s;
+}

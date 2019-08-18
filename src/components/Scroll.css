@@ -1,0 +1,9 @@
+.scrollback {
+    background: transparent;
+}
+
+.scrollstyle {
+    overflow-y: scroll;
+    height: 70vh;
+    padding: 1rem;
+}

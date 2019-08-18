@@ -1,0 +1,46 @@
+.navbarstyle {
+    top: 0;
+    position: fixed;
+    background: #fff;
+    height: 4rem;
+    z-index: 1;
+    border: 2px solid black;
+}
+
+.navlist {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 0.2rem;
+    list-style: none;
+    font-size: 1.2rem;
+    border: 2px solid red;
+}
+
+.navlist li {
+    border: 2px solid blue;
+    padding: 0 0.5rem;
+}
+
+.navlist a {
+    text-decoration: none;
+    color: lightslategray;
+    font-family: 'Fugaz One', cursive;
+}
+
+.navlist a:hover {
+    color: black;
+}
+
+.push {
+    margin-left: auto;
+}
+
+@media screen and (max-width: 50rem) {
+    .navlist {
+        font-size: 0.7rem;
+    }
+
+    .navlist li {
+        padding: 0 0.4rem;
+    }
+}

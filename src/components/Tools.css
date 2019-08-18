@@ -1,0 +1,84 @@
+.toolsstyle {
+    border: 2px solid indigo;
+    overflow-y: auto;
+}
+
+.toolstitle {
+    color: #333333;
+    font-family: 'Fugaz One', cursive;
+    font-size: 3rem;
+}
+
+.toolsgrid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, minmax(3rem, 1fr));
+    grid-gap: 2rem;
+    padding: 1.5rem;
+    height: 85%;
+    border: 2px solid red;
+}
+
+.icon {
+    font-size: 5rem;
+    padding: 1rem;
+    color: #333333;
+}
+
+.iconHtml5:hover {
+    color: #E34C26;
+}
+
+.iconCss3:hover {
+    color: #1a53ff;
+}
+
+.iconJs:hover {
+    color: #f7df1e;
+}
+
+.iconNode:hover {
+    color: #33cc33;
+}
+
+.iconReact:hover {
+    color: #00d8ff;
+}
+
+.iconBootstrap:hover {
+    color: #551A8B;
+}
+
+.iconGit:hover {
+    color: #e24329;
+}
+
+.iconGithub:hover {
+    color: #9900ff;
+}
+
+.iconPostgresql:hover {
+    color: #008bb9;
+}
+
+.iconSql:hover {
+    color: #00bfff;
+}
+
+.iconHeroku:hover {
+    color: #8533ff;
+}
+
+.iconNpm:hover {
+    color: #cb3837;
+}
+
+@media only screen and (max-width: 600px) {
+    .icon {
+        font-size: 3rem;
+    }
+
+    .toolstitle {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,17 @@
+.portfoliostyle {
+    background: linear-gradient(45deg, rgba(128, 255, 204), rgba(153, 204, 255));
+    border: 2px solid brown;
+    overflow-y: auto;
+}
+
+.portfoliotitle {
+    color: #333333;
+    font-family: 'Fugaz One', cursive;
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .portfoliotitle {
+        font-size: 2rem;
+    }
+}

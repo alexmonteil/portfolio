@@ -1,0 +1,36 @@
+.headerstyle {
+    margin-top: 4rem;
+    background: url('./Header-img.png');
+    background-size: cover;
+    border: 2px solid orange;
+    overflow-y: auto;
+}
+
+.overlay {
+    background: linear-gradient(45deg, rgba(128, 255, 204, 0.5), rgba(153, 204, 255, 0.5));
+    background-size: cover;
+    border: 2px solid purple;
+}
+
+.articletext {
+    border: 2px solid greenyellow;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.toAboutButton {
+    font-size: 2rem;
+    font-family: 'Fugaz One', cursive;
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #fff;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 20px #000;
+    border-radius: 20rem;
+    padding: 0.25rem 0.5rem;
+    transition: padding 0.3s;
+}
+
+.toAboutButton:hover {
+    background-color: rgba(100,100,100,0.5);
+    padding: 0.5rem 1rem;
+}
