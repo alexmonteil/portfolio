@@ -12,7 +12,7 @@
     align-items: flex-end;
     padding-bottom: 0.2rem;
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     border: 2px solid red;
 }
 
@@ -37,7 +37,7 @@
 
 @media screen and (max-width: 50rem) {
     .navlist {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .navlist li {
