@@ -1,14 +1,16 @@
 import React from 'react';
+import './Portfolionav.css';
 
 const Portfolionav = ({ clickChange, clickResetState }) => {
     return (
-        <div>
+        <div className='pa2 mv2'>
             <input 
                 type='submit'
                 name='All'
                 value='All'
                 id='All'
                 onClick={clickResetState}
+                className='portfolioButton'
                 />
 
             <input 
@@ -17,6 +19,7 @@ const Portfolionav = ({ clickChange, clickResetState }) => {
                 value='Css'
                 id='Css'
                 onClick={clickChange}
+                className='portfolioButton'
                 />
 
             <input 
@@ -25,6 +28,7 @@ const Portfolionav = ({ clickChange, clickResetState }) => {
                 value='Bootstrap'
                 id='Bootstrap'
                 onClick={clickChange}
+                className='portfolioButton'
                 />
 
             <input 
@@ -33,6 +37,7 @@ const Portfolionav = ({ clickChange, clickResetState }) => {
                 value='Javascript'
                 id='Javascript'
                 onClick={clickChange}
+                className='portfolioButton'
                 />
 
             <input 
@@ -41,6 +46,7 @@ const Portfolionav = ({ clickChange, clickResetState }) => {
                 value='React'
                 id='React'
                 onClick={clickChange}
+                className='portfolioButton'
                 />
 
         </div>
