@@ -16,7 +16,8 @@ class Portfolio extends Component {
     componentDidMount() {
         fetch('https://raw.githubusercontent.com/alexmonteil/projects-json/master/websites.json')
         .then(response => response.json())
-        .then(websites => this.setState({websites: websites}));
+        .then(websites => this.setState({websites: websites}))
+        .catch(err => console.log(err));
     }
 
     onClickChange = (event) => {
