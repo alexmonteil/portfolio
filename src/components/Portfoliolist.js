@@ -5,14 +5,14 @@ const Portfoliolist = ({websites}) => {
     return (
         <div>
             {
-                websites.map((site, i) => {
+                websites.map((website, i) => {
                     return (
                         <Card 
                             key={i}
-                            name={websites[i].name}
-                            thumbnail={websites[i].thumbnail}
-                            description={websites[i].description}
-                            url={websites[i].url}
+                            name={website.name}
+                            thumbnail={website.thumbnail}
+                            description={website.description}
+                            url={website.url}
                             />
                     );
                 })

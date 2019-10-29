@@ -7,7 +7,7 @@ const Card = ({ name, thumbnail, description, url }) => {
             <h1>{name}</h1>
             <hr/>
             <div>
-                <img alt={name} src={thumbnail} width='100px' height='auto'/>
+                <img alt={name} src={thumbnail} width='200px' height='auto'/>
                 <p>{description}</p>
                 <a href={url} rel='noopener noreferrer' target='_blank'>View website</a>
             </div>
