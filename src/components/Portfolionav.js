@@ -1,7 +1,7 @@
 import React from 'react';
 import './Portfolionav.css';
 
-const Portfolionav = ({ clickChange }) => {
+const Portfolionav = ({ setWebsiteType }) => {
     return (
         <div className='pa2 mv2'>
             <input 
@@ -9,7 +9,7 @@ const Portfolionav = ({ clickChange }) => {
                 name='All'
                 value='All'
                 id='All'
-                onClick={() => clickChange('')}
+                onClick={() => setWebsiteType('')}
                 className='portfolioButton'
                 />
 
@@ -18,7 +18,7 @@ const Portfolionav = ({ clickChange }) => {
                 name='Css'
                 value='Css'
                 id='Css'
-                onClick={() => clickChange('Css')}
+                onClick={() => setWebsiteType('Css')}
                 className='portfolioButton'
                 />
 
@@ -27,7 +27,7 @@ const Portfolionav = ({ clickChange }) => {
                 name='Bootstrap'
                 value='Bootstrap'
                 id='Bootstrap'
-                onClick={() => clickChange('Bootstrap')}
+                onClick={() => setWebsiteType('Bootstrap')}
                 className='portfolioButton'
                 />
 
@@ -36,7 +36,7 @@ const Portfolionav = ({ clickChange }) => {
                 name='Javascript'
                 value='Javascript'
                 id='Javascript'
-                onClick={() => clickChange('Javascript')}
+                onClick={() => setWebsiteType('Javascript')}
                 className='portfolioButton'
                 />
 
@@ -45,7 +45,7 @@ const Portfolionav = ({ clickChange }) => {
                 name='React'
                 value='React'
                 id='React'
-                onClick={() => clickChange('React')}
+                onClick={() => setWebsiteType('React')}
                 className='portfolioButton'
                 />
 

@@ -20,7 +20,7 @@ class Portfolio extends Component {
         .catch(err => console.log(err));
     }
 
-    onClickChange = type => {
+    setWebsiteType = type => {
         this.setState({viewtype: type});
     }
 
@@ -35,7 +35,7 @@ class Portfolio extends Component {
             return (
                 <div id='Portfolio' className='portfoliostyle vh-100 w-100'>
                     <h1 className='portfoliotitle w-33 shadow-1 center br3'>Portfolio</h1>
-                    <Portfolionav clickChange={this.onClickChange} />
+                    <Portfolionav setWebsiteType={this.setWebsiteType} />
                     <Scroll>
                         <Portfoliolist websites={filterwebsites} />
                     </Scroll>
