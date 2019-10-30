@@ -13,7 +13,7 @@ const Contact = () => {
             <h2 className='f3 ma5'>Here are my social media platforms</h2>
             <div className='contactgrid w-40 center'>
                 <a href='https://www.linkedin.com/in/alex-monteil-310406149/' className='iconLinkedin' rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
-                <a href='https://github.com/alexmonteil' className='iconGithub' rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                <a href='https://github.com/alexmonteil/' className='iconGithub' rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={['fab', 'github']} /></a>
             </div>
         </div>
     );

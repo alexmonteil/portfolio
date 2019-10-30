@@ -7,10 +7,10 @@ const Card = ({ name, thumbnail, description, url }) => {
             <h2>{name}</h2>
             <hr className='mt2' />
             <div className='mt2'>
-                <img alt={name} src={thumbnail} width='300px' height='150px'/>
+                <img alt={name} src={thumbnail} width='300px' height='auto'/>
                 <p>{description}</p>
-                <a href={url} rel='noopener noreferrer' target='_blank'>View website</a>
             </div>
+            <a href={url} rel='noopener noreferrer' target='_blank'>View website</a>
         </div>
     );
 }

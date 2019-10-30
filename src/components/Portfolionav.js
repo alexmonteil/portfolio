@@ -1,7 +1,7 @@
 import React from 'react';
 import './Portfolionav.css';
 
-const Portfolionav = ({ clickChange, clickResetState }) => {
+const Portfolionav = ({ clickChange }) => {
     return (
         <div className='pa2 mv2'>
             <input 
@@ -9,7 +9,7 @@ const Portfolionav = ({ clickChange, clickResetState }) => {
                 name='All'
                 value='All'
                 id='All'
-                onClick={clickResetState}
+                onClick={() => clickChange('')}
                 className='portfolioButton'
                 />
 
@@ -18,7 +18,7 @@ const Portfolionav = ({ clickChange, clickResetState }) => {
                 name='Css'
                 value='Css'
                 id='Css'
-                onClick={clickChange}
+                onClick={() => clickChange('Css')}
                 className='portfolioButton'
                 />
 
@@ -27,7 +27,7 @@ const Portfolionav = ({ clickChange, clickResetState }) => {
                 name='Bootstrap'
                 value='Bootstrap'
                 id='Bootstrap'
-                onClick={clickChange}
+                onClick={() => clickChange('Bootstrap')}
                 className='portfolioButton'
                 />
 
@@ -36,7 +36,7 @@ const Portfolionav = ({ clickChange, clickResetState }) => {
                 name='Javascript'
                 value='Javascript'
                 id='Javascript'
-                onClick={clickChange}
+                onClick={() => clickChange('Javascript')}
                 className='portfolioButton'
                 />
 
@@ -45,7 +45,7 @@ const Portfolionav = ({ clickChange, clickResetState }) => {
                 name='React'
                 value='React'
                 id='React'
-                onClick={clickChange}
+                onClick={() => clickChange('React')}
                 className='portfolioButton'
                 />
 

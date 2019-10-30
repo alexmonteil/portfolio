@@ -20,12 +20,8 @@ class Portfolio extends Component {
         .catch(err => console.log(err));
     }
 
-    onClickChange = (event) => {
-        this.setState({viewtype: event.target.value});
-    }
-
-    onClickresetState = () => {
-        this.setState({viewtype: ''});
+    onClickChange = type => {
+        this.setState({viewtype: type});
     }
 
     render() {
@@ -35,18 +31,21 @@ class Portfolio extends Component {
             return website.type.toLowerCase().includes(viewtype.toLowerCase());
         })
 
-        if (!websites.length) {
-            return (
-                <h1 className='portfoliotitle w-33 center'>Loading</h1>
-            );
-        } else {
+        if (websites.length) {
             return (
                 <div id='Portfolio' className='portfoliostyle vh-100 w-100'>
                     <h1 className='portfoliotitle w-33 shadow-1 center br3'>Portfolio</h1>
-                    <Portfolionav clickChange={this.onClickChange} clickResetState={this.onClickresetState} />
+                    <Portfolionav clickChange={this.onClickChange} />
                     <Scroll>
                         <Portfoliolist websites={filterwebsites} />
                     </Scroll>
+                </div>
+            );
+        } else {
+            return (
+                <div>
+                    <h1 className='portfoliotitle w-33 shadow-1 center br3'>Portfolio</h1>
+                    <h2>Loading...</h2>
                 </div>
             );
         }
