@@ -47,11 +47,11 @@
 @media only screen and (max-width: 31.25em) {
 
     .abouttitle {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     .articleabout p {
-        font-size: 1.3em;
+        font-size: 1.2em;
         padding: 0.8em;
     }
 }

@@ -37,10 +37,10 @@
 
 @media screen and (max-width: 31.25em) {
     .navlist {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     .navlist li {
-        padding: 0 0.4em;
+        padding: 0 0.3em;
     }
 }
