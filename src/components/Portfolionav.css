@@ -18,3 +18,13 @@
     padding: 0.3rem 0.6rem;
 }
 
+@media only screen and (max-width: 31.25em) {
+    .portfolioButton {
+        font-size: 0.9em;
+        color: #fff;
+        border: 3px solid #fff;
+        border-radius: 20em;
+        padding: 0.25em 0.5em;
+        margin: 0.5em;
+    }
+} 

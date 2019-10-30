@@ -35,12 +35,12 @@
     margin-left: auto;
 }
 
-@media screen and (max-width: 50rem) {
+@media screen and (max-width: 31.25em) {
     .navlist {
-        font-size: 1rem;
+        font-size: 1em;
     }
 
     .navlist li {
-        padding: 0 0.4rem;
+        padding: 0 0.4em;
     }
 }

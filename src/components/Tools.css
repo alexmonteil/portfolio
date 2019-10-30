@@ -73,12 +73,12 @@
     color: #cb3837;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 31.25em) {
     .icon {
-        font-size: 3rem;
+        font-size: 3em;
     }
 
     .toolstitle {
-        font-size: 2rem;
+        font-size: 2em;
     }
 }
