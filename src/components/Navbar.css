@@ -1,13 +1,17 @@
 .navbarstyle {
     top: 0;
+    right: 0;
+    left: 0;
     position: fixed;
     background: #fff;
-    height: 4rem;
-    z-index: 1;
+    height: 3.75rem;
+    z-index: 10;
     border: 2px solid black;
 }
 
 .navlist {
+    position: absolute;
+    margin-top: 0;
     display: flex;
     align-items: flex-end;
     padding-bottom: 0.2rem;

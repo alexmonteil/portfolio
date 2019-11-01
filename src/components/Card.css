@@ -1,6 +1,6 @@
 .cardstyle {
     background-color: rgba(0, 0, 0, 0.6);
-    width: 16rem;
+    max-width: 16rem;
     color: #fff;
 }
 
