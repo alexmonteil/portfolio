@@ -6,7 +6,7 @@
     background: #fff;
     height: 3.75rem;
     z-index: 10;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
 }
 
 .navlist {
@@ -17,11 +17,11 @@
     padding-bottom: 0.2rem;
     list-style: none;
     font-size: 1.3rem;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 .navlist li {
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
     padding: 0 0.5rem;
 }
 

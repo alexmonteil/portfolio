@@ -1,6 +1,6 @@
 .contactstyle {
     background: linear-gradient(45deg, rgba(128, 255, 204), rgba(153, 204, 255));
-    border: 2px solid lightcoral;
+    /*border: 2px solid lightcoral;*/
     overflow-y: auto;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .mailsection {
-    border: 2px solid blueviolet;
+    /*border: 2px solid blueviolet;*/
     padding: 2rem;
 }
 
@@ -38,7 +38,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     justify-items: center;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .contactgrid a {

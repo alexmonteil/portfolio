@@ -1,5 +1,5 @@
 .aboutstyle {
-    border: 2px solid rgb(226, 216, 216);
+    /*border: 2px solid rgb(226, 216, 216);*/
     padding: 1rem;
     overflow-y: auto;
 }
@@ -11,7 +11,7 @@
 }
 
 .aboutbordertest {
-    border: 2px solid green;
+    /*border: 2px solid green;*/
 }
 
 .articleabout {

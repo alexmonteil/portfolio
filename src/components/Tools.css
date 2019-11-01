@@ -1,5 +1,5 @@
 .toolsstyle {
-    border: 2px solid indigo;
+    /*border: 2px solid indigo;*/
     overflow-y: auto;
 }
 
@@ -16,7 +16,7 @@
     grid-gap: 2rem;
     padding: 1.5rem;
     height: 85%;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 .icon {
