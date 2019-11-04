@@ -4,6 +4,7 @@
     background-size: cover;
     /*border: 2px solid orange;*/
     overflow-y: auto;
+    height: max-content;
 }
 
 .overlay {
