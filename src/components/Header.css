@@ -11,7 +11,7 @@
     /*border: 2px solid purple;*/
     position: absolute;
     z-index: 1;
-    top: 3.75rem;
+    padding-top: 3.75rem;
     left: 0;
 }
 
