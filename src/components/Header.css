@@ -3,8 +3,7 @@
     background: url('./Header-img.png');
     background-size: cover;
     /*border: 2px solid orange;*/
-    overflow-y: auto;
-    height: max-content;
+    border: 0.1px solid transparent;
 }
 
 .overlay {
