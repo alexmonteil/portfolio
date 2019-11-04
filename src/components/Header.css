@@ -3,7 +3,7 @@
     background: url('./Header-img.png');
     background-size: cover;
     /*border: 2px solid orange;*/
-    border: 0.1px solid transparent;
+    overflow-y: auto;
 }
 
 .overlay {
@@ -16,7 +16,7 @@
     left: 0;
 }
 
-.articletext {
+.articletext h1 {
     /*border: 2px solid greenyellow;*/
     font-family: 'Permanent Marker', cursive;
 }
@@ -40,6 +40,11 @@
 }
 
 @media only screen and (max-width: 31.25em) {
+    .articletext h1 {
+        /*border: 2px solid greenyellow;*/
+        font-size: 2.5em;
+    }
+
     .toAboutButton {
         font-size: 1.3em;
         padding: 0.25em 0.3em;
