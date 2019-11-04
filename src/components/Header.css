@@ -3,7 +3,7 @@
     background: url('./Header-img.png');
     background-size: cover;
     /*border: 2px solid orange;*/
-    overflow-y: auto;
+    border: 0.1px solid transparent;
 }
 
 .overlay {
@@ -11,8 +11,6 @@
     background-size: cover;
     /*border: 2px solid purple;*/
     position: absolute;
-    min-height: 100%;
-    width: 100%;
     z-index: 1;
     top: 3.75rem;
     left: 0;
