@@ -8,10 +8,18 @@
     color: #333333;
     font-family: 'Fugaz One', cursive;
     font-size: 3rem;
+    padding: 0.2rem;
+    width: max-content;
 }
 
 @media only screen and (max-width: 31.25em) {
     .portfoliotitle {
         font-size: 1.8em;
+    }
+}
+
+@media only screen and (max-width: 26em) {
+    .portfoliotitle {
+        font-size: 1.5em;
     }
 }

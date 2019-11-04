@@ -8,6 +8,8 @@
     color: #333333;
     font-family: 'Fugaz One', cursive;
     font-size: 3rem;
+    width: max-content;
+    padding: 0.2rem;
 }
 
 .aboutbordertest {
@@ -53,5 +55,37 @@
     .articleabout p {
         font-size: 1.2em;
         padding: 0.8em;
+    }
+
+    .toPortfolioButton {
+        font-size: 1.3em;
+        padding: 0.25em 0.3em;
+    }
+    
+    .toPortfolioButton:hover {
+        background-color: rgba(100,100,100,0.5);
+        padding: 0.3em 0.7em;
+    }
+}
+
+@media only screen and (max-width: 26em) {
+
+    .abouttitle {
+        font-size: 1.5em;
+    }
+
+    .articleabout p {
+        font-size: 1.2em;
+        padding: 0.8em;
+    }
+
+    .toPortfolioButton {
+        font-size: 1.3em;
+        padding: 0.25em 0.3em;
+    }
+    
+    .toPortfolioButton:hover {
+        background-color: rgba(100,100,100,0.5);
+        padding: 0.3em 0.7em;
     }
 }

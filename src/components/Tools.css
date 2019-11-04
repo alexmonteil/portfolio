@@ -7,6 +7,8 @@
     color: #333333;
     font-family: 'Fugaz One', cursive;
     font-size: 3rem;
+    padding: 0.2rem;
+    width: max-content;
 }
 
 .toolsgrid {
@@ -80,5 +82,25 @@
 
     .toolstitle {
         font-size: 1.8em;
+    }
+}
+
+@media only screen and (max-width: 26em) {
+    .toolsgrid {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, minmax(3em, 1fr));
+        grid-gap: 1.8em;
+        padding: 1.2em;
+        height: 85%;
+        /*border: 2px solid red;*/
+    }
+    
+    .icon {
+        font-size: 2.5em;
+    }
+
+    .toolstitle {
+        font-size: 1.5em;
     }
 }

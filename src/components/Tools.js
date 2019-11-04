@@ -5,7 +5,7 @@ import './Tools.css';
 const Tools = () => {
     return (
         <div id='Tools' className='toolsstyle vh-100 w-100'>
-            <h1 className='toolstitle w-33 shadow-1 center br3'>Tools</h1>
+            <h1 className='toolstitle shadow-1 center br3'>Tools</h1>
             <div className='toolsgrid w-80 center'>
                 <font><FontAwesomeIcon icon={['fab', 'html5']} className='icon iconHtml5' /><br/>HTML 5</font>
                 <font><FontAwesomeIcon icon={['fab', 'css3-alt']} className='icon iconCss3' /><br/>CSS 3</font>

@@ -48,3 +48,13 @@
         padding: 0 0.3em;
     }
 }
+
+@media screen and (max-width: 26em) {
+    .navlist {
+        font-size: 0.7em;
+    }
+
+    .navlist li {
+        padding: 0 0.2em;
+    }
+}

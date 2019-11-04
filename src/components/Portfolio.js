@@ -34,7 +34,7 @@ class Portfolio extends Component {
         if (websites.length) {
             return (
                 <div id='Portfolio' className='portfoliostyle vh-100 w-100'>
-                    <h1 className='portfoliotitle w-33 shadow-1 center br3'>Portfolio</h1>
+                    <h1 className='portfoliotitle shadow-1 center br3'>Portfolio</h1>
                     <Portfolionav setWebsiteType={this.setWebsiteType} />
                     <Scroll>
                         <Portfoliolist websites={filterwebsites} />
