@@ -3,6 +3,9 @@ import Scroll from './Scroll';
 import Portfoliolist from './Portfoliolist';
 import Portfolionav from './Portfolionav';
 import './Portfolio.css';
+import ScrollableAnchor from 'react-scrollable-anchor';
+import { configureAnchors } from 'react-scrollable-anchor';
+configureAnchors({offset: -60, scrollDuration: 200});
 
 class Portfolio extends Component {
     constructor() {
@@ -33,20 +36,24 @@ class Portfolio extends Component {
 
         if (websites.length) {
             return (
-                <div id='Portfolio' className='portfoliostyle vh-100 w-100'>
-                    <h1 className='portfoliotitle shadow-1 center br3'>Portfolio</h1>
-                    <Portfolionav setWebsiteType={this.setWebsiteType} />
-                    <Scroll>
-                        <Portfoliolist websites={filterwebsites} />
-                    </Scroll>
-                </div>
+                <ScrollableAnchor id={'Portfolio'}>
+                    <div className='portfoliostyle vh-100 w-100'>
+                        <h1 className='portfoliotitle shadow-1 center br3'>Portfolio</h1>
+                        <Portfolionav setWebsiteType={this.setWebsiteType} />
+                        <Scroll>
+                            <Portfoliolist websites={filterwebsites} />
+                        </Scroll>
+                    </div>
+                </ScrollableAnchor>
             );
         } else {
             return (
-                <div>
-                    <h1 className='portfoliotitle w-33 shadow-1 center br3'>Portfolio</h1>
-                    <h2>Loading...</h2>
-                </div>
+                <ScrollableAnchor id={'Portfolio'}>
+                    <div className='portfoliostyle vh-100 w-100'>
+                        <h1 className='portfoliotitle w-33 shadow-1 center br3'>Portfolio</h1>
+                        <h2>Loading...</h2>
+                    </div>
+                </ScrollableAnchor>
             );
         }
     }
