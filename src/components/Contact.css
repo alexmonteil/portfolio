@@ -17,6 +17,10 @@
     padding: 2rem;
 }
 
+.dosisFont {
+    font-family: 'Dosis', cursive;
+}
+
 .clickToMailButton {
     font-size: 2rem;
     font-family: 'Fugaz One', cursive;
