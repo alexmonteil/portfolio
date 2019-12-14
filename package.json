@@ -1,6 +1,6 @@
 {
-  "homepage": "https://alexmonteil.github.io/portfolio",
-  "name": "portfolio",
+  "homepage": "https://alexmonteil.github.io/reactfolio",
+  "name": "reactfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
