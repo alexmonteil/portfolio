@@ -1,7 +1,14 @@
 import React from 'react';
 import './Portfolionav.css';
 
-const Portfolionav = ({ setWebsiteType }) => {
+/* 
+
+Edit Portfolionav Section:
+    Edit input names with your projects types
+    Edit input values with your projects types
+*/
+
+const Portfolionav = ({ setWebsiteType, resetWebsiteType }) => {
     return (
         <div className='pa2 mv2'>
             <input 
@@ -9,7 +16,7 @@ const Portfolionav = ({ setWebsiteType }) => {
                 name='All'
                 value='All'
                 id='All'
-                onClick={() => setWebsiteType('')}
+                onClick={resetWebsiteType}
                 className='portfolioButton'
                 />
 
@@ -18,7 +25,7 @@ const Portfolionav = ({ setWebsiteType }) => {
                 name='Css'
                 value='Css'
                 id='Css'
-                onClick={() => setWebsiteType('Css')}
+                onClick={setWebsiteType}
                 className='portfolioButton'
                 />
 
@@ -27,7 +34,7 @@ const Portfolionav = ({ setWebsiteType }) => {
                 name='Bootstrap'
                 value='Bootstrap'
                 id='Bootstrap'
-                onClick={() => setWebsiteType('Bootstrap')}
+                onClick={setWebsiteType}
                 className='portfolioButton'
                 />
 
@@ -36,7 +43,7 @@ const Portfolionav = ({ setWebsiteType }) => {
                 name='Javascript'
                 value='Javascript'
                 id='Javascript'
-                onClick={() => setWebsiteType('Javascript')}
+                onClick={setWebsiteType}
                 className='portfolioButton'
                 />
 
@@ -45,7 +52,7 @@ const Portfolionav = ({ setWebsiteType }) => {
                 name='React'
                 value='React'
                 id='React'
-                onClick={() => setWebsiteType('React')}
+                onClick={setWebsiteType}
                 className='portfolioButton'
                 />
 

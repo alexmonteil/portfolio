@@ -5,6 +5,23 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
 configureAnchors({offset: -60, scrollDuration: 200});
 
+/* 
+Edit Tools section:
+    Search for icons to use at: https://fontawesome.com/icons?d=gallery
+    Icons have 2 keys identifying them:
+        1- a prefix such as: fa, fab, or other
+        2- an icon name such as: html5, node, github, or other
+    Replace the prefix name and icon name in the icon attribute within the FontAwesomeIcon tags below
+    Edit the icon text after the br tag to reflect your icon's name
+    Each icon has 2 classes:
+        1- 'icon' which should NOT be removed
+        2- 'iconName' such as: 'iconHtml5' which you can edit or replace with your custom class
+    To add a custom class to an icon to change its glowing color:
+        1- Create your class in the Tools.css file
+        2- Replace the second class in the className attribute with your new class name
+*/
+    
+
 const Tools = () => {
     return (
         <ScrollableAnchor id={'Tools'}>

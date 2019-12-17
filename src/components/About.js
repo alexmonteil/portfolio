@@ -4,6 +4,12 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
 configureAnchors({offset: -60, scrollDuration: 200});
 
+/*
+
+Edit About Section: 
+    Write a description about you within the p tags.
+    
+*/
 const About = () => {
     return (
         <ScrollableAnchor id={'About'}>

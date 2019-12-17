@@ -1,6 +1,14 @@
-// Adding custom icons to react-fontawesome library 
-// https://github.com/mlwilkerson/fa-custom-icon-demo
+/* To add custom icons:
 
+    Paste your new svg file inside the custom-icons folder.
+    Follow guide in the link to the react-fontawesome provided below.
+    You will need to export your new icon as a named object as done below.
+    Follow the steps in the App.js component located in the container folder. 
+
+Adding custom icons to react-fontawesome library
+https://github.com/mlwilkerson/fa-custom-icon-demo
+
+*/
 
 export const fapostgre = {
     prefix: 'fac',

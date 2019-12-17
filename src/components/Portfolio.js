@@ -16,6 +16,12 @@ class Portfolio extends Component {
         }
     }
 
+    /*
+
+    Edit Portfolio Section: 
+        replace the fetch URL below with JSON file URL containing your projects information
+    */
+
     componentDidMount() {
         fetch('https://alexmonteil.github.io/projects-json/websites.json')
         .then(response => response.json())
@@ -23,8 +29,12 @@ class Portfolio extends Component {
         .catch(err => console.log(err));
     }
 
-    setWebsiteType = type => {
-        this.setState({viewtype: type});
+    setWebsiteType = event => {
+        this.setState({viewtype: event.target.value});
+    }
+
+    resetWebsiteType = () => {
+        this.setState({viewtype: ''});
     }
 
     render() {
@@ -39,7 +49,7 @@ class Portfolio extends Component {
                 <ScrollableAnchor id={'Portfolio'}>
                     <div className='portfoliostyle vh-100 w-100'>
                         <h1 className='portfoliotitle shadow-1 center br3'>Portfolio</h1>
-                        <Portfolionav setWebsiteType={this.setWebsiteType} />
+                        <Portfolionav setWebsiteType={this.setWebsiteType} resetWebsiteType={this.resetWebsiteType} />
                         <Scroll>
                             <Portfoliolist websites={filterwebsites} />
                         </Scroll>

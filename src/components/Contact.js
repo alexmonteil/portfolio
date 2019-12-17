@@ -5,6 +5,14 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
 configureAnchors({offset: -60, scrollDuration: 200});
 
+/* 
+
+Edit Contact Section:
+    1st a tag: Paste your email address in href attribute after mailto:
+    2nd a tag: Replace href attribute with your linkedin profile URL
+    3rd a tag: Replace href attribute with your github profile URL
+*/
+
 const Contact = () => {
     return (
         <ScrollableAnchor id={'Contact'}>

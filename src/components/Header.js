@@ -4,6 +4,13 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
 configureAnchors({offset: -60, scrollDuration: 200});
 
+/*
+
+Edit Header Section:
+    1st h1 tag: edit content with your name
+    2nd h1 tag: edit content to create your own greeting
+*/
+
 const Header = () => {
     return (
         <ScrollableAnchor id={'Home'}>
