@@ -5,7 +5,7 @@
 Feel free to use it as-is or customize it as much as you want. I am glad to contribute to the Developers community !
 
 <h2 align="center">
-  <img src="https://github.com/cobidev/simplefolio/blob/master/examples/example.gif" alt="Simplefolio" width="600px" />
+  <img src="mygif" alt="Simplefolio" width="600px" />
   <br>
 </h2>
 
@@ -18,8 +18,8 @@ Feel free to use it as-is or customize it as much as you want. I am glad to cont
 ✔️ SEO friendly HTML & CSS\
 ✔️ Updated Guide & Documentation
 
-To view a demo example, **[click here](https://simplfolio.netlify.com/)**\
-To view a live example, **[click here](https://cobidev.com/)**
+To view a demo example, **[click here](URL)**\
+To view a live example, **[click here](https://alexmonteil.github.io/reactfolio/)**
 
 ---
 
