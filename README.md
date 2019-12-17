@@ -1,4 +1,4 @@
-# Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/alexmonteil/reactfolio?color=blue)](https://github.com/alexmonteil/reactfolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/alexmonteil/reactfolio) ![GitHub forks](https://img.shields.io/github/forks/alexmonteil/reactfolio)
+# Reactfolio ⚡️ [![GitHub](https://img.shields.io/github/license/alexmonteil/reactfolio?color=blue)](https://github.com/alexmonteil/reactfolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/alexmonteil/reactfolio) ![GitHub forks](https://img.shields.io/github/forks/alexmonteil/reactfolio)
 
 ## A Fast, modern and responsive portfolio template for Developers, Artists, or anyone looking to showcase their projects !
 
