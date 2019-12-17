@@ -5,7 +5,7 @@
 Feel free to use it as-is or customize it as much as you want. I am glad to contribute to the Developers community !
 
 <h2 align="center">
-  <img src="mygif" alt="Simplefolio" width="600px" />
+  <img src="mygif" alt="Reactfolio" width="600px" />
   <br>
 </h2>
 
