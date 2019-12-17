@@ -1,8 +1,8 @@
 # Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/alexmonteil/reactfolio?color=blue)](https://github.com/alexmonteil/reactfolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/alexmonteil/reactfolio) ![GitHub forks](https://img.shields.io/github/forks/alexmonteil/reactfolio)
 
-## A clean, beautiful and responsive portfolio template for Developers!
+## A Fast, modern and responsive portfolio template for Developers, Artists, or anyone looking to showcase their projects !
 
-Feel free to use it as-is or customize it as much as you want. I was motivated to create this project because I wanted to contribute on something useful for the dev community :)
+Feel free to use it as-is or customize it as much as you want. I am glad to contribute to the Developers community !
 
 <h2 align="center">
   <img src="https://github.com/cobidev/simplefolio/blob/master/examples/example.gif" alt="Simplefolio" width="600px" />
@@ -10,14 +10,13 @@ Feel free to use it as-is or customize it as much as you want. I was motivated t
 </h2>
 
 ## Features
-✔️ Modern UI Design + Reveal Animations\
-✔️ One Page Layout\
-✔️ Built with Bootstrap v4.3 + Custom SCSS\
-✔️ Light Clean Codes\
+✔️ Modern UI Design\
+✔️ Single Page Layout\
+✔️ Built with React, Tachyons, Grid & Flex\
+✔️ Light Clean Code\
 ✔️ Fully Responsive\
-✔️ Valid HTML5 & CSS3\
-✔️ Optimized with Webpack\
-✔️ Well organized Documentation
+✔️ SEO friendly HTML & CSS\
+✔️ Updated Guide & Documentation
 
 To view a demo example, **[click here](https://simplfolio.netlify.com/)**\
 To view a live example, **[click here](https://cobidev.com/)**
