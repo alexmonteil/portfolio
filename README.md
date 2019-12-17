@@ -30,13 +30,13 @@ git@2.17.1 or higher
 
 How To Use 🔧
 
-From your command line, clone and run Simplefolio:
+From your command line, clone and run Reactfolio:
 
 # Clone this repository
-$ git clone https://github.com/cobidev/simplefolio
+$ git clone https://github.com/alexmonteil/reactfolio
 
 # Go into the repository
-$ cd simplefolio
+$ cd reactfolio
 
 # Remove current origin repository
 $ git remote remove origin
