@@ -78,7 +78,7 @@ $ npm start
 There are 7 sections total:
 
 - 1 is the main App container found at : `/src/containers/App.js` 
-- 6 are the app components found in `/src/components/`
+- 6 are the app components found at `/src/components/`
 
 Follow the guide below on how to edit them, I also included comments in the code to guide you.
 
@@ -140,32 +140,100 @@ componentDidMount() {
 }
 ```
 
-**Contact Section**
+Inside the file `src/components/Portfolionav.js` :
 
-- On `<p>` tag with class-name `.contact-wrapper__text`, include some custom call-to-action message.
-- On `<a>` tag, put your email address on `href` property.
+- Edit the `name` and `value` attributes inside the `<input>` tags to reflect your projects types.
+
+```html
+<div className='pa2 mv2'>
+            <input 
+                type='submit'
+                name='All'
+                value='All'
+                id='All'
+                onClick={resetWebsiteType}
+                className='portfolioButton'
+                />
+
+            <input 
+                type='submit'
+                name='Css'
+                value='Css'
+                id='Css'
+                onClick={setWebsiteType}
+                className='portfolioButton'
+                />
+
+            <input 
+                type='submit'
+                name='Bootstrap'
+                value='Bootstrap'
+                id='Bootstrap'
+                onClick={setWebsiteType}
+                className='portfolioButton'
+                />
+
+            <input 
+                type='submit'
+                name='Javascript'
+                value='Javascript'
+                id='Javascript'
+                onClick={setWebsiteType}
+                className='portfolioButton'
+                />
+
+            <input 
+                type='submit'
+                name='React'
+                value='React'
+                id='React'
+                onClick={setWebsiteType}
+                className='portfolioButton'
+                />
+
+</div>
+
+```
+
+**Tools Section**
+
+- Search for icons to use at: https://fontawesome.com/icons?d=gallery
+- I recommend using no more than 12 icons.
+
+Icons have an array of 2 strings identifying them:
+
+- a prefix such as: `fa`, `fab`, or other
+- an icon name such as: `html5`, `node`, `github`, or other
+
+Each icon has 2 classes inside the `className` attribute:
+
+- `'icon'` which should NOT be removed
+- `'iconName'` such as: `'iconHtml5'` which you can edit or replace with your custom class
+
+To add a custom class to an icon to change its hover effect:
+
+- Create your class in the file located at: `src/components/Tools.css`
+- inside the file `src/components/Tools.js` inside the `<FontAwesomeIcon>` tag edit the `className` attribute and replace the second class with your new custom class.
 
 ```html
 <!-- **** Contact Section **** -->
-<section id="contact">
-  <div class="container">
-    <h2 class="section-title">
-      Contact
-    </h2>
-    <div class="contact-wrapper">
-      <p class="contact-wrapper__text">
-        Put here your contact CTA
-      </p>
-      <a
-        target="_blank"
-        class="cta-btn cta-btn--resume"
-        href="mailto:example@email.com"
-        >Call to Action</a
-      >
-    </div>
+<div className='toolsstyle vh-100 w-100'>
+  <h1 className='toolstitle shadow-1 center br3'>Tools</h1>
+  <div className='toolsgrid w-80 center'>
+    <font><FontAwesomeIcon icon={['fab', 'html5']} className='icon iconHtml5' /><br/>HTML 5</font>
+    <font><FontAwesomeIcon icon={['fab', 'css3-alt']} className='icon iconCss3' /><br/>CSS 3</font>
+    <font><FontAwesomeIcon icon={['fab', 'js-square']} className='icon iconJs' /><br/>Javascript</font>
+    <font><FontAwesomeIcon icon={['fab', 'node']} className='icon iconNode' /><br/>Node.js</font>
+    <font><FontAwesomeIcon icon={['fab', 'react']} className='icon iconReact' /><br/>React.js</font>
+    <font><FontAwesomeIcon icon={['fab', 'bootstrap']} className='icon iconBootstrap' /><br/>Bootstrap</font>
+    <font><FontAwesomeIcon icon={['fab', 'git-alt']} className='icon iconGit' /><br/>Git</font>
+    <font><FontAwesomeIcon icon={['fab', 'github']} className='icon iconGithub' /><br/>Github</font>
+    <font><FontAwesomeIcon icon={['fac', 'postgre']} className='icon iconPostgresql' /><br/>PostgreSQL</font>
+    <font><FontAwesomeIcon icon={['fas', 'database']} className='icon iconSql' /><br/>SQL</font>
+    <font><FontAwesomeIcon icon={['fac', 'heroku']} className='icon iconHeroku' /><br/>Heroku</font>
+    <font><FontAwesomeIcon icon={['fab', 'npm']} className='icon iconNpm' /><br/>npm</font>
   </div>
-</section>
-<!-- /END Contact Section -->
+</div>
 ```
 
 **Footer Section**
