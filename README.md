@@ -75,124 +75,69 @@ $ npm start
 
 ### Step 1 - STRUCTURE
 
-Go to `/src/template.html` and fill your information, they are 5 sections:
+There are 7 sections total:
 
-**Hero Section**
+1 is the main App container found at : `/src/containers/App.js` 
+6 are the app components found in `/src/components/`
 
-- On `.hero-title`, put your custom title.
-- On `.hero-cta`, put your custom button cta.
+Follow the guide below on how to edit them, I also included comments in the code to guide you.
+
+**Header Section**
+
+Inside the file `src/components/Header.js`
+
+- inside the first `<h1>` tag, edit your name.
+- inside the second `<h1>` tag, create your greeting.
 
 ```html
-<!-- **** Hero Section **** -->
-<div id="hero" class="jumbotron">
-  <div class="container">
-    <h1 class="hero-title" class="load-hidden">
-      Hi, my name is <span class="text-color-main">John Doe</span>
-      <br />
-      I'm the Unknow Developer.
-    </h1>
-    <p class="hero-cta" class="load-hidden">
-      <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
-    </p>
-  </div>
+<div className='headerstyle vh-100 w-100'>
+  <article className='overlay min-vh-100 w-100 flex flex-column flex-wrap justify-center'>
+      <div className='articletext pa4 white'>
+      <h1 className='f1 fw3 f-subheadline-l'>Hi, my name is John Doe</h1>
+      <br/>
+      <h1 className='f1 fw3 f-subheadline-l'>Welcome to my Portfolio !</h1>
+      <br/>
+      <a href='#About' className='toAboutButton mt2'>About Me</a>
+    </div>
+  </article>
 </div>
-<!-- /END Hero Section -->
 ```
 
 **About Section**
 
-- On `<img>` tag, fill the `src` property with your profile picture, your picture must live on `assets/` folder.
-- On `<p>` tag with class-name `.about-wrapper__info-text`, include information about you, I recommend to use 2 paragraphs in order to work well and a maximum of 3 paragraphs.
-- On last `<a>` tag, include your resume url on `href` property.
+Inside the file `src/components/About.js`
+
+- inside the first 4 `<p>` tags, write a description about yourself.
+
 
 ```html
-<!-- **** About Section **** -->
-<section id="about">
-  <div class="container">
-    <h2 class="section-title">
-      About me
-    </h2>
-    <div class="row about-wrapper">
-      <div class="col-md-6 col-sm-12">
-        <div class="about-wrapper__image">
-          <img
-            class="img-fluid rounded shadow-lg"
-            height="auto"
-            width="300px"
-            src="./assets/profile.png"
-            alt="Profile Image"
-          />
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="about-wrapper__info">
-          <p class="about-wrapper__info-text">
-            Lorem ipsum dolor sit, about my text.
-          </p>
-          <p class="about-wrapper__info-text">
-            Lorem ipsum dolor sit, about my text.
-          </p>
-          <span class="d-flex mt-3">
-            <a target="_blank" class="cta-btn cta-btn--resume" href="#!">
-              View Resume
-            </a>
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /END About Section -->
+<div className='aboutstyle vh-100 w-100'>
+  <h1 className='abouttitle shadow-1 center br3'>About Me</h1>
+  <article className='articleabout w-80 tc center br3 mt4 mb2'>
+    <p>Hi, my name is Alex Monteil. I have been doing software development for a year. During this time, I have taught myself some of the latest web technologies and built all sorts of web applications.</p>
+    <p>Software development is my passion. I started doing it in my spare time for fun and it quickly grew into a career interest. This is why I constantly look to grow and learn new technologies in the field. I simply enjoy it !</p>
+    <p>I have been working mainly with frameworks such as React, Redux and Express to create responsive and efficient web applications. </p>
+    <p>My interests extend to machine learning, natural language processing and computer vision as I seek to build smart web applications with those capabilities.</p>
+    <hr className='w-80 center' />
+    <p className='mb4'>Thanks for viewing my portfolio</p>
+    <a href='#Portfolio' className='mv2 toPortfolioButton'>Portfolio</a>
+  </article> 
+</div>
 ```
 
-**Projects Section**
+**Portfolio Section**
 
-- Each project lives inside on a `row`.
-- On `<h3>` tag with class-name `.project-wrapper__text-title`, include your project title.
-- On `<p>` tag with `loremp ipsum` text, include your project information.
-- On first `<a>` tag, put your project url on `href` property.
-- On second `<a>` tag, put your project repostiroy url on `href` property.
+Inside the file `src/components/Portfolio.js` :
 
----
+- inside the `fetch()` method paste the URL to the JSON file that contains your projects data
 
-- Inside `<div>` tag with class-name `.project-wrapper__image`, put your project image url on the `src` of the `<img>` and put again your project url on `href` property of `<a>` tag.
-- Recommended size for project image (1366 x 767px), your project image must live on `assets/` folder.
-
-```html
-<!-- **** Projects Section **** -->
-<section id="projects">
-  ...
-  <!-- Each .row is a project -->
-  <div class="row">
-    <div class="col-lg-4 col-sm-12">
-      <div class="project-wrapper__text">
-        <h3 class="project-wrapper__text-title">[Project Title]</h3>
-        <div>
-          <p class="mb-4">
-            Lorem ipsum dolor sit, my project information.
-          </p>
-        </div>
-        <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-          See Live
-        </a>
-        <a target="_blank" class="cta-btn text-color-main" href="#!">
-          Source Code
-        </a>
-      </div>
-    </div>
-    <div class="col-lg-8 col-sm-12">
-      <div class="project-wrapper__image">
-        <a href="#!" target="_blank">
-          <div data-tilt class="thumbnail rounded">
-            <img class="img-fluid" src="./assets/banner.png" />
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-  <!-- /END Project block -->
-  ...
-</section>
+```javascript
+componentDidMount() {
+        fetch('https://alexmonteil.github.io/projects-json/websites.json')
+        .then(response => response.json())
+        .then(websites => this.setState({websites: websites}))
+        .catch(err => console.log(err));
+}
 ```
 
 **Contact Section**
