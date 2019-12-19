@@ -77,8 +77,8 @@ $ npm start
 
 There are 7 sections total:
 
-1 is the main App container found at : `/src/containers/App.js` 
-6 are the app components found in `/src/components/`
+- 1 is the main App container found at : `/src/containers/App.js` 
+- 6 are the app components found in `/src/components/`
 
 Follow the guide below on how to edit them, I also included comments in the code to guide you.
 
