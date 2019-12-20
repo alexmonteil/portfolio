@@ -197,6 +197,8 @@ Inside the file `src/components/Portfolionav.js` :
 
 **Tools Section**
 
+Inside the file `src/components/Tools.js :
+
 - Search for icons to use at: https://fontawesome.com/icons?d=gallery
 - I recommend using no more than 12 icons.
 
@@ -236,31 +238,57 @@ To add a custom class to an icon to change its hover effect:
 </div>
 ```
 
-**Footer Section**
+To create your custom icons out of SVG files: 
 
-- Put your social media link on each `<a>` links.
-- If you have more social-media accounts, see [Font Awesome Icons](https://fontawesome.com/v4.7.0/icons/) to put the corresponding additional social icon `.class`
-- You can delete or add as many `a` links your want.
+- inside the file at: `src/custom-icons/custom-icons.js`, create your icon as a variable containing an object as follows:
+- the `prefix` property of your icon object contains a 3 letter string, I would use `fac` as it is not used by Font Awesome
+- the `iconName` property is a string identifying your icon: choose whatever name you want
+- the `icon` property is an array of the form:
+
+```javascript
+icon: [
+        24, 24, // width, height
+        [], // ligatures leave empty array if you don't know
+        null, // unicode if relevant
+        'M17.128 0a10.134 10.134 0 0 0-2' // svg path data (path d), you can find this in your svg file
+]
+```
+
+
+**Contact Section**
+
+Inside the file `src/components/Contact.js` :
+
+- inside the first `<a>` tag, within the `href` attribute after `mailto:`, paste your email address
+- inside the second `<a>` tag, within the `href` attribute, paste the URL to your linkedin profile
+- inside the third `<a>` tag, within the `href` attribute, paste the URL to your github profile
+
 
 ```html
-<footer class="footer navbar-static-bottom">
-  ...
-  <div class="social-links">
-    <a href="#!" target="_blank">
-      <i class="fa fa-twitter fa-inverse"></i>
-    </a>
-    <a href="#!" target="_blank">
-      <i class="fa fa-codepen fa-inverse"></i>
-    </a>
-    <a href="#!" target="_blank">
-      <i class="fa fa-linkedin fa-inverse"></i>
-    </a>
-    <a href="#!" target="_blank">
-      <i class="fa fa-github fa-inverse"></i>
-    </a>
+<div className='contactstyle vh-100 w-100 center'>
+  <h1 className='contacttitle shadow-1 center br3'>Contact</h1>
+  <div className='mailsection w-70 center ma4'>
+    <h2 className='f1 mb5 center dosisFont'>Send me an email :</h2>
+    <a className='clickToMailButton' href='mailto:alex.monteil@outlook.com'>Email me</a>
   </div>
-  ...
-</footer>
+  <h2 className='f2 ma5 center dosisFont'>Here are my social media platforms</h2>
+  <div className='contactgrid w-40 center'>
+    <a href='www.linkedin.com/in/alex-monteil' className='iconLinkedin' rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+    <a href='https://github.com/alexmonteil/' className='iconGithub' rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={['fab', 'github']} /></a>
+  </div>
+</div>
+```
+
+**Footer Section**
+
+Inside the file `src/components/Footer.js` : 
+
+- inside the `<a>` tag, within the `href` attribute, paste the URL to your linkedin profile
+
+```html
+<div id='Footer' className='footerstyle tc'>
+  <p>Created by <a href='https://www.linkedin.com/in/alex-monteil' rel='noopener noreferrer' target='_blank'>John Doe</a></p>
+</div>
 ```
 
 ### Step 2 - STYLES
@@ -289,24 +317,16 @@ Because this template use Webpack maybe you can get errors during deployment, Pl
 
 **[WATCH NOW MY STEP-BY-STEP TUTORIAL FOR DEPLOYMENT](https://www.youtube.com/watch?v=soaG3GNSxJY)**
 
-## Others versions made by the community 👥
-
-[Simplefolio Ember.js](https://github.com/sernadesigns/simplefolio-ember) by [Michael Serna](https://github.com/sernadesigns)
-
 ## Technologies used 🛠️
 
-- [Webpack](https://webpack.js.org/concepts/) - Static module bundler
-- [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-end component library
-- [Sass](https://sass-lang.com/documentation) - CSS extension language
-- [ScrollReveal.js](https://scrollrevealjs.org/) - JavaScript library
+- [React](https://reactjs.org) - JavaScript library to build reuseable components
+- [Tachyons](https://tachyons.io) - CSS library
+- [react-fontawesome](https://github.com/FortAwesome/react-fontawesome) - Library to implement Font Awesome icons in react
+- [react-scrollable-anchor](https://github.com/gabergg/react-scrollable-anchor) - Library for smooth scrolling in react
 
 ## Authors
 
-- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
-
-## Status
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/75600296-89eb-4640-9e7e-fa87fba7ce76/deploy-status)](https://app.netlify.com/sites/simplfolio/deploys)
+- **Alex Monteil** - [https://github.com/alexmonteil](https://github.com/alexmonteil)
 
 ## License 📄
 
