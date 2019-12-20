@@ -127,7 +127,7 @@ Inside the file `src/components/About.js`
 
 **Portfolio Section**
 
-Inside the file `src/components/Portfolio.js` :
+Inside the file `src/components/Portfolio.js`
 
 - inside the `fetch()` method paste the URL to the JSON file that contains your projects data
 
@@ -140,7 +140,7 @@ componentDidMount() {
 }
 ```
 
-Inside the file `src/components/Portfolionav.js` :
+Inside the file `src/components/Portfolionav.js`
 
 - Edit the `name` and `value` attributes inside the `<input>` tags to reflect your projects types.
 
@@ -197,7 +197,7 @@ Inside the file `src/components/Portfolionav.js` :
 
 **Tools Section**
 
-Inside the file `src/components/Tools.js :
+Inside the file `src/components/Tools.js
 
 - Search for icons to use at: https://fontawesome.com/icons?d=gallery
 - I recommend using no more than 12 icons.
@@ -257,7 +257,7 @@ icon: [
 
 **Contact Section**
 
-Inside the file `src/components/Contact.js` :
+Inside the file `src/components/Contact.js`
 
 - inside the first `<a>` tag, within the `href` attribute after `mailto:`, paste your email address
 - inside the second `<a>` tag, within the `href` attribute, paste the URL to your linkedin profile
@@ -281,7 +281,7 @@ Inside the file `src/components/Contact.js` :
 
 **Footer Section**
 
-Inside the file `src/components/Footer.js` : 
+Inside the file `src/components/Footer.js`
 
 - inside the `<a>` tag, within the `href` attribute, paste the URL to your linkedin profile
 
