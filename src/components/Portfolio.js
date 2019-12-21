@@ -3,6 +3,7 @@ import Scroll from './Scroll';
 import Portfoliolist from './Portfoliolist';
 import Portfolionav from './Portfolionav';
 import './Portfolio.css';
+import { projects } from '../projects/projects';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
 configureAnchors({offset: -60, scrollDuration: 200});
@@ -23,10 +24,7 @@ class Portfolio extends Component {
     */
 
     componentDidMount() {
-        fetch('https://github.com/alexmonteil/reactfolio/blob/master/src/json/websites.json')
-        .then(response => response.json())
-        .then(websites => this.setState({websites: websites}))
-        .catch(err => console.log(err));
+        this.setState({ websites: projects });
     }
 
     setWebsiteType = event => {
