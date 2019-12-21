@@ -114,10 +114,10 @@ Inside the file `src/components/About.js`
 <div className='aboutstyle vh-100 w-100'>
   <h1 className='abouttitle shadow-1 center br3'>About Me</h1>
   <article className='articleabout w-80 tc center br3 mt4 mb2'>
-    <p>Hi, my name is Alex Monteil. I have been doing software development for a year. During this time, I have taught myself some of the latest web technologies and built all sorts of web applications.</p>
-    <p>Software development is my passion. I started doing it in my spare time for fun and it quickly grew into a career interest. This is why I constantly look to grow and learn new technologies in the field. I simply enjoy it !</p>
-    <p>I have been working mainly with frameworks such as React, Redux and Express to create responsive and efficient web applications. </p>
-    <p>My interests extend to machine learning, natural language processing and computer vision as I seek to build smart web applications with those capabilities.</p>
+    <p>First paragraph about yourself</p>
+    <p>Second paragraph about yourself</p>
+    <p>Third paragraph about yourself</p>
+    <p>Fourth paragraph about yourself</p>
     <hr className='w-80 center' />
     <p className='mb4'>Thanks for viewing my portfolio</p>
     <a href='#Portfolio' className='mv2 toPortfolioButton'>Portfolio</a>
@@ -239,6 +239,7 @@ To add a custom class to an icon to change its hover effect:
 
 To create your custom icons out of SVG files: 
 
+- add your `svg` icon files inside the `src/custom-icons/` folder.
 - inside the file at: `src/custom-icons/custom-icons.js`, create your icon as a variable containing an object as follows:
 - the `prefix` property of your icon object contains a 3 letter string, I would use `fac` as it is not used by Font Awesome
 - the `iconName` property is a string identifying your icon: choose whatever name you want
@@ -298,7 +299,7 @@ Inside the file `src/containers/App.js`
 - The `import` statement should look like below
 
 ```javascript
-import { fapostgre, faheroku } from '../custom-icons/custom-icons';
+import { fapostgre, faheroku, yourNewIcon } from '../custom-icons/custom-icons';
 ```
 
 ### Step 2 - STYLES
