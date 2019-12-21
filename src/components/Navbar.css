@@ -37,7 +37,7 @@
 }
 
 @media screen and (max-width: 31.25em) {
-    .navlist li > a{
+    .navlist li > a {
         font-size: 1em;
     }
 
@@ -52,6 +52,7 @@
     }
 
     .navlist li {
-        padding: 0 0.3em;
+        padding: 0 0.2em;
     }
 }
+
