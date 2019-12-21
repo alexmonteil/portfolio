@@ -71,9 +71,37 @@ $ sudo npm install --unsafe-perm=true --allow-root
 $ npm start
 ```
 
-## Template Instructions:
+## Instructions:
 
-### Step 1 - STRUCTURE
+### Step 1 - THE DATA 
+
+- Create a GitHub repository to store your projects data
+- In this repository create a JSON file
+- Inside your JSON file, store your projects following the format below
+
+```json
+[
+    {
+        "id": "1",
+        "name": "Project 1",
+        "thumbnail": "URL to a screenshot of project 1",
+        "type": "type of project 1",
+        "description": "Short description of project 1",
+        "url": "URL where project 1 is hosted"
+    },
+
+    {
+        "id": "2",
+        "name": "Project 2",
+        "thumbnail": "URL to a screenshot of project 2",
+        "type": "type of project 2",
+        "description": "Short description of project 2",
+        "url": "URL where project 2 is hosted"
+    }
+]
+```
+
+### Step 2 - THE TEMPLATE
 
 There are 7 sections total:
 
