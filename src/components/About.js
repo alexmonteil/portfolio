@@ -16,7 +16,7 @@ const About = () => {
             <div className='aboutstyle vh-100 w-100'>
                 <h1 className='abouttitle shadow-1 center br3'>About Me</h1>
                 <article className='articleabout w-80 tc center br3 mt4 mb2'>
-                    <p>Hi, my name is Alex Monteil. I have been doing software development for a year. During this time, I have taught myself some of the latest web technologies and built all sorts of web applications.</p>
+                    <p>Hi, my name is John Doe. I have been doing software development for a year. During this time, I have taught myself some of the latest web technologies and built all sorts of web applications.</p>
                     <p>Software development is my passion. I started doing it in my spare time for fun and it quickly grew into a career interest. This is why I constantly look to grow and learn new technologies in the field. I simply enjoy it !</p>
                     <p>I have been working mainly with frameworks such as React, Redux and Express to create responsive and efficient web applications. </p>
                     <p>My interests extend to machine learning, natural language processing and computer vision as I seek to build smart web applications with those capabilities.</p>
