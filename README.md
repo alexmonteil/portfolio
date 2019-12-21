@@ -61,6 +61,7 @@ $ npm start
 ```
 
 **NOTE**:
+
 If your run into issues installing the dependencies, use this command:
 
 ```bash
@@ -73,7 +74,9 @@ $ npm start
 
 ## Instructions:
 
-### Step 1 - THE DATA 
+
+### Step 1 - THE DATA
+
 
 - Create a GitHub repository to store your projects data
 - In this repository create a JSON file
@@ -108,6 +111,7 @@ $ npm start
 
 ### Step 2 - THE TEMPLATE
 
+
 There are 7 sections total:
 
 - 1 is the main App container found at : `/src/containers/App.js` 
@@ -116,6 +120,7 @@ There are 7 sections total:
 Follow the guide below on how to edit them, I also included comments in the code to guide you.
 
 **Header Section**
+
 
 Inside the file `src/components/Header.js`
 
@@ -138,6 +143,7 @@ Inside the file `src/components/Header.js`
 
 **About Section**
 
+
 Inside the file `src/components/About.js`
 
 - inside the first 4 `<p>` tags, write a description about yourself.
@@ -159,6 +165,7 @@ Inside the file `src/components/About.js`
 ```
 
 **Portfolio Section**
+
 
 Inside the file `src/components/Portfolio.js`
 
@@ -230,6 +237,7 @@ Inside the file `src/components/Portfolionav.js`
 
 **Tools Section**
 
+
 Inside the file `src/components/Tools.js
 
 - Search for icons to use at: https://fontawesome.com/icons?d=gallery
@@ -290,6 +298,7 @@ icon: [
 
 **Contact Section**
 
+
 Inside the file `src/components/Contact.js`
 
 - inside the first `<a>` tag, within the `href` attribute after `mailto:`, paste your email address
@@ -314,6 +323,7 @@ Inside the file `src/components/Contact.js`
 
 **Footer Section**
 
+
 Inside the file `src/components/Footer.js`
 
 - inside the `<a>` tag, within the `href` attribute, paste the URL to your linkedin profile
@@ -326,6 +336,7 @@ Inside the file `src/components/Footer.js`
 
 **App Section**
 
+
 Inside the file `src/containers/App.js`
 
 - On the `import`statement below, add your created icons.
@@ -334,6 +345,13 @@ Inside the file `src/containers/App.js`
 ```javascript
 import { fapostgre, faheroku, yourNewIcon } from '../custom-icons/custom-icons';
 ```
+
+- In the following statement, add your imported icons separated by comas
+
+```javascript
+library.add(fab, fas, fapostgre, faheroku);
+```
+
 
 ### Step 2 - STYLES
 
