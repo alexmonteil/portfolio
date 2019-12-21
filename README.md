@@ -133,7 +133,7 @@ Inside the file `src/components/Portfolio.js`
 
 ```javascript
 componentDidMount() {
-        fetch('https://alexmonteil.github.io/projects-json/websites.json')
+        fetch('https://yourgithubaccount.github.io/json-repo/yourjsonfile.json')
         .then(response => response.json())
         .then(websites => this.setState({websites: websites}))
         .catch(err => console.log(err));
@@ -269,12 +269,12 @@ Inside the file `src/components/Contact.js`
   <h1 className='contacttitle shadow-1 center br3'>Contact</h1>
   <div className='mailsection w-70 center ma4'>
     <h2 className='f1 mb5 center dosisFont'>Send me an email :</h2>
-    <a className='clickToMailButton' href='mailto:alex.monteil@outlook.com'>Email me</a>
+    <a className='clickToMailButton' href='mailto:yourEmailAddress@example.com'>Email me</a>
   </div>
   <h2 className='f2 ma5 center dosisFont'>Here are my social media platforms</h2>
   <div className='contactgrid w-40 center'>
-    <a href='www.linkedin.com/in/alex-monteil' className='iconLinkedin' rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
-    <a href='https://github.com/alexmonteil/' className='iconGithub' rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={['fab', 'github']} /></a>
+    <a href='#LinkedIn-URL' className='iconLinkedin' rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+    <a href='#Github-URL' className='iconGithub' rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={['fab', 'github']} /></a>
   </div>
 </div>
 ```
@@ -287,7 +287,7 @@ Inside the file `src/components/Footer.js`
 
 ```html
 <div id='Footer' className='footerstyle tc'>
-  <p>Created by <a href='https://www.linkedin.com/in/alex-monteil' rel='noopener noreferrer' target='_blank'>John Doe</a></p>
+  <p>Created by <a href='#LinkedIn-URL' rel='noopener noreferrer' target='_blank'>John Doe</a></p>
 </div>
 ```
 
@@ -306,12 +306,17 @@ import { fapostgre, faheroku, yourNewIcon } from '../custom-icons/custom-icons';
 
 Change the color theme of the website ( choose 2 colors to create a gradient ):
 
-Go to `src/styles/abstracts/_variables.scss` and only change the values on this classes `$main-color` and `$secondary-color` to your prefered HEX color
+- inside `src/components/Header.css`, within the `.overlay` class, edit the `background` property with your colors in rgba format.
 
-```scss
-// Defaut values
-$main-color: #02aab0;
-$secondary-color: #00cdac;
+```css
+.overlay {
+    background: linear-gradient(45deg, rgba(128, 255, 204, 0.5), rgba(153, 204, 255, 0));
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 3.75rem;
+    left: 0;
+}
 ```
 
 **NOTE**: I highly recommend to checkout gradients variations on [UI Gradient](https://uigradients.com/#BrightVault)
@@ -320,13 +325,39 @@ $secondary-color: #00cdac;
 
 ## Deployment 📦
 
-Once you have done with your setup. You need to put your website online!
+To deploy on github pages: 
 
-I highly recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST WAY
+Add Homepage: 
 
-Because this template use Webpack maybe you can get errors during deployment, Please watch my step-by-step video tutorial to successfully upload your Simplefolio Website on Netlify!
+- Open your package.json file present inside your react app and add homepage property.
+- `"homepage":"https://yourusername.github.io/repository-name"`
+- Replace the above url with your github account and repository names.
 
-**[WATCH NOW MY STEP-BY-STEP TUTORIAL FOR DEPLOYMENT](https://www.youtube.com/watch?v=soaG3GNSxJY)**
+Install gh-pages:
+
+- `npm install --save gh-pages`
+
+Deploy script:
+
+```json
+"scripts":{
+ "predeploy": "npm run build",
+ "deploy": "gh-pages -d build",
+}
+```
+
+- Now in your terminal run `npm run deploy`
+
+Set up source to gh-pages branch :
+
+- open your GitHub code repository
+- scroll down to GitHub Pages
+- in source, choose gh-pages branch
+
+<h2 align="center">
+  <img src="https://github.com/cobidev/simplefolio/blob/master/examples/example.gif" alt="Simplefolio" width="600px" />
+  <br>
+</h2>
 
 ## Technologies used 🛠️
 
