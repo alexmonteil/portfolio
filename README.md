@@ -76,31 +76,32 @@ $ npm start
 
 ### Step 1 - THE DATA
 
+Inside `src/projects/projects.js`
 
-- Create a GitHub repository to store your projects data
-- In this repository create a JSON file
-- Inside your JSON file, store your projects following the format below
+- Each project is a JavaScript Object
+- Edit the name, thumbnail, type, description and url properties with your projects data
+- Remove the unused objects or add more objects as needed for new projects
 
-```json
+```javascript
 [
     {
-        "id": "1",
-        "name": "Project 1",
-        "thumbnail": "URL to a screenshot of project 1",
-        "type": "type of project 1",
-        "description": "Short description of project 1",
-        "url": "URL where project 1 is hosted"
+        id: "1",
+        name: "Project 1",
+        thumbnail: "https://raw.githubusercontent.com/alexmonteil/reactfolio/master/src/thumbnails/binary-vision.png",
+        type: "react",
+        description: "Project 1 description here",
+        url: "#"
     },
 
     {
-        "id": "2",
-        "name": "Project 2",
-        "thumbnail": "URL to a screenshot of project 2",
-        "type": "type of project 2",
-        "description": "Short description of project 2",
-        "url": "URL where project 2 is hosted"
+        id: "2",
+        name: "Project 2",
+        thumbnail: "https://raw.githubusercontent.com/alexmonteil/reactfolio/master/src/thumbnails/starwars-api.png",
+        type: "react",
+        description: "Project 2 description here",
+        url: "#"
     }
-]
+];
 ```
 
 - Create a GitHub repository to store screenshots of your projects

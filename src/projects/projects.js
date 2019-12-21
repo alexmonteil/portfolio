@@ -1,3 +1,8 @@
+/*
+Every project is a JavaScript Object.
+Edit the name, thumbnail, type, description and url properties with your projects data.
+*/
+
 export const projects = [
     {
         id: "1",

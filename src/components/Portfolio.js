@@ -17,12 +17,6 @@ class Portfolio extends Component {
         }
     }
 
-    /*
-
-    Edit Portfolio Section: 
-        replace the fetch URL below with JSON file URL containing your projects information
-    */
-
     componentDidMount() {
         this.setState({ websites: projects });
     }
