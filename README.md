@@ -101,6 +101,11 @@ $ npm start
 ]
 ```
 
+- Create a GitHub repository to store screenshots of your projects
+- Upload screenshots of your projects to the repository
+- Paste the URL addresses to your screenshots in the `tumbnails` sections of your JSON file
+
+
 ### Step 2 - THE TEMPLATE
 
 There are 7 sections total:
