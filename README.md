@@ -218,7 +218,6 @@ To add a custom class to an icon to change its hover effect:
 - inside the file `src/components/Tools.js` inside the `<FontAwesomeIcon>` tag edit the `className` attribute and replace the second class with your new custom class.
 
 ```html
-<!-- **** Contact Section **** -->
 <div className='toolsstyle vh-100 w-100'>
   <h1 className='toolstitle shadow-1 center br3'>Tools</h1>
   <div className='toolsgrid w-80 center'>
@@ -289,6 +288,17 @@ Inside the file `src/components/Footer.js`
 <div id='Footer' className='footerstyle tc'>
   <p>Created by <a href='https://www.linkedin.com/in/alex-monteil' rel='noopener noreferrer' target='_blank'>John Doe</a></p>
 </div>
+```
+
+**App Section**
+
+Inside the file `src/containers/App.js`
+
+- On the `import`statement below, add your created icons.
+- The `import` statement should look like below
+
+```javascript
+import { fapostgre, faheroku } from '../custom-icons/custom-icons';
 ```
 
 ### Step 2 - STYLES
