@@ -2,14 +2,12 @@
     margin-top: 3.75rem;
     background: url('./Header-img.png');
     background-size: cover;
-    /*border: 2px solid orange;*/
     overflow-y: auto;
 }
 
 .overlay {
     background: linear-gradient(45deg, rgba(128, 255, 204, 0.5), rgba(153, 204, 255, 0));
     background-size: cover;
-    /*border: 2px solid purple;*/
     position: absolute;
     z-index: 1;
     top: 3.75rem;
@@ -17,7 +15,6 @@
 }
 
 .articletext h1 {
-    /*border: 2px solid greenyellow;*/
     font-family: 'Permanent Marker', cursive;
 }
 
@@ -41,7 +38,6 @@
 
 @media only screen and (max-width: 31.25em) {
     .articletext h1 {
-        /*border: 2px solid greenyellow;*/
         font-size: 2.5em;
     }
 
