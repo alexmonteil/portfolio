@@ -166,20 +166,6 @@ Inside the file `src/components/About.js`
 
 **Portfolio Section**
 
-
-Inside the file `src/components/Portfolio.js`
-
-- inside the `fetch()` method paste the URL to the JSON file that contains your projects data
-
-```javascript
-componentDidMount() {
-        fetch('https://yourgithubaccount.github.io/json-repo/yourjsonfile.json')
-        .then(response => response.json())
-        .then(websites => this.setState({websites: websites}))
-        .catch(err => console.log(err));
-}
-```
-
 Inside the file `src/components/Portfolionav.js`
 
 - Edit the `name` and `value` attributes inside the `<input>` tags to reflect your projects types.
