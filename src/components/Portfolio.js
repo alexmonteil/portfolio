@@ -23,7 +23,7 @@ class Portfolio extends Component {
     */
 
     componentDidMount() {
-        fetch('https://alexmonteil.github.io/projects-json/websites.json')
+        fetch('../json/websites.json')
         .then(response => response.json())
         .then(websites => this.setState({websites: websites}))
         .catch(err => console.log(err));
