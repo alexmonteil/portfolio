@@ -6,7 +6,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div id='Footer' className='footerstyle tc'>
-            <p>Created by <a href='https://www.linkedin.com/in/alex-monteil' rel='noopener noreferrer' target='_blank'>Alex Monteil</a></p>
+            <p>Created by <a href='#' rel='noopener noreferrer' target='_blank'>John Doe</a></p>
         </div>
     );
 }

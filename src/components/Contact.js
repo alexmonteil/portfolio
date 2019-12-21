@@ -20,12 +20,12 @@ const Contact = () => {
                 <h1 className='contacttitle shadow-1 center br3'>Contact</h1>
                 <div className='mailsection w-70 center ma4'>
                     <h2 className='f1 mb5 center dosisFont'>Send me an email :</h2>
-                    <a className='clickToMailButton' href='mailto:alex.monteil@outlook.com'>Email me</a>
+                    <a className='clickToMailButton' href='#'>Email me</a>
                 </div>
                 <h2 className='f2 ma5 center dosisFont'>Here are my social media platforms</h2>
                 <div className='contactgrid w-40 center'>
-                    <a href='www.linkedin.com/in/alex-monteil' className='iconLinkedin' rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
-                    <a href='https://github.com/alexmonteil/' className='iconGithub' rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                    <a href='#' className='iconLinkedin' rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+                    <a href='#' className='iconGithub' rel='noopener noreferrer' target='_blank'><FontAwesomeIcon icon={['fab', 'github']} /></a>
                 </div>
             </div>
         </ScrollableAnchor>
