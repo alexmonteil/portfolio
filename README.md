@@ -355,7 +355,7 @@ Set up source to gh-pages branch :
 - in source, choose gh-pages branch
 
 <h2 align="center">
-  <img src="https://github.com/cobidev/simplefolio/blob/master/examples/example.gif" alt="Simplefolio" width="600px" />
+  <img src="https://github.com/alexmonteil/reactfolio/examples/react-ghpages.png" alt="Reactfolio" width="600px" />
   <br>
 </h2>
 
