@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactfolio/static/css/main.d2913d93.chunk.css",
+    "main.css": "/reactfolio/static/css/main.e8ac4712.chunk.css",
     "main.js": "/reactfolio/static/js/main.d4e8afff.chunk.js",
     "main.js.map": "/reactfolio/static/js/main.d4e8afff.chunk.js.map",
     "runtime~main.js": "/reactfolio/static/js/runtime~main.3beff066.js",
@@ -9,10 +9,10 @@
     "static/js/2.4e36794d.chunk.js": "/reactfolio/static/js/2.4e36794d.chunk.js",
     "static/js/2.4e36794d.chunk.js.map": "/reactfolio/static/js/2.4e36794d.chunk.js.map",
     "index.html": "/reactfolio/index.html",
-    "precache-manifest.08304c4ee6d8756c42a6d35d37dfa074.js": "/reactfolio/precache-manifest.08304c4ee6d8756c42a6d35d37dfa074.js",
+    "precache-manifest.8d6dc12763fa418e2b4a1cc4a35ff690.js": "/reactfolio/precache-manifest.8d6dc12763fa418e2b4a1cc4a35ff690.js",
     "service-worker.js": "/reactfolio/service-worker.js",
     "static/css/2.31dafeb2.chunk.css.map": "/reactfolio/static/css/2.31dafeb2.chunk.css.map",
-    "static/css/main.d2913d93.chunk.css.map": "/reactfolio/static/css/main.d2913d93.chunk.css.map",
+    "static/css/main.e8ac4712.chunk.css.map": "/reactfolio/static/css/main.e8ac4712.chunk.css.map",
     "static/media/Header.css": "/reactfolio/static/media/Header-img.3fa9fdee.png"
   }
 }
