@@ -224,7 +224,7 @@ Inside the file `src/components/Portfolionav.js`
 **Tools Section**
 
 
-Inside the file `src/components/Tools.js
+Inside the file `src/components/Tools.js`
 
 - Search for icons to use at: https://fontawesome.com/icons?d=gallery
 - I recommend using no more than 12 icons.
@@ -313,6 +313,8 @@ Inside the file `src/components/Contact.js`
 Inside the file `src/components/Footer.js`
 
 - inside the `<a>` tag, within the `href` attribute, paste the URL to your linkedin profile
+
+- replace the text between the `<a>` tags with your name
 
 ```html
 <div id='Footer' className='footerstyle tc'>

@@ -12,13 +12,21 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import './App.css';
 
-/* To add additional custom svg icons :
+/* 
 
-  1-Follow guide in the custom-icons.js component
-  2-Once you completed the steps in tools component:
-    import your created icon object example: import { fapostgre, faheroku, yournewicon } from '../custom-icons/custom-icons';
-    add your created icon object to the list below, example: library.add(fab, fas, fapostgre, faheroku, yournewicon);
-    separate each object with a coma as done below.
+To add additional custom svg icons :
+
+Inside the file 'src/containers/App.js'
+
+- On the 'import' statement below, add your created icons.
+- The 'import' statement should look like below
+
+import { fapostgre, faheroku, yourNewIcon } from '../custom-icons/custom-icons';
+
+- In the following statement, add your imported icons separated by comas
+
+library.add(fab, fas, fapostgre, faheroku);
+
 */
 
 library.add(fab, fas, fapostgre, faheroku);

@@ -1,9 +1,23 @@
-/* To add custom icons:
+/*
 
-    Paste your new svg file inside the custom-icons folder.
-    Follow guide in the link to the react-fontawesome provided below.
-    You will need to export your new icon as a named object as done below.
-    Follow the steps in the App.js component located in the container folder. 
+To create your custom icons out of SVG files: 
+
+- add your 'svg' icon files inside the 'src/custom-icons/' folder.
+- inside the file at: 'src/custom-icons/custom-icons.js', create your icon as a variable containing an object as follows:
+- the 'prefix' property of your icon object contains a 3 letter string, I would use 'fac' as it is not used by Font Awesome
+- the 'iconName' property is a string identifying your icon: choose whatever name you want
+- the 'icon' property is an array of the form:
+
+icon: [
+        24, 24, // width, height
+        [], // ligatures leave empty array if you don't know
+        null, // unicode if relevant
+        'M17.128 0a10.134 10.134 0 0 0-2' // svg path data (path d), you can find this in your svg file
+]
+
+- Follow the steps in the App.js component located at 'src/containers/App.js'
+- Follow guide in the link to the react-fontawesome provided below for more guidance.
+     
 
 Adding custom icons to react-fontawesome library
 https://github.com/mlwilkerson/fa-custom-icon-demo

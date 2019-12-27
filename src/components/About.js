@@ -7,7 +7,7 @@ configureAnchors({offset: -60, scrollDuration: 200});
 /*
 
 Edit About Section: 
-    Write a description about you within the p tags.
+    Write a description about you within the <p> tags.
     
 */
 const About = () => {

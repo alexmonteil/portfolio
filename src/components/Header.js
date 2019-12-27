@@ -7,8 +7,8 @@ configureAnchors({offset: -60, scrollDuration: 200});
 /*
 
 Edit Header Section:
-    1st h1 tag: edit content with your name
-    2nd h1 tag: edit content to create your own greeting
+    1st <h1> tag: edit content with your name
+    2nd <h1> tag: edit content to create your own greeting
 */
 
 const Header = () => {

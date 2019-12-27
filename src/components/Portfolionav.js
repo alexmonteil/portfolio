@@ -4,8 +4,8 @@ import './Portfolionav.css';
 /* 
 
 Edit Portfolionav Section:
-    Edit input names with your projects types
-    Edit input values with your projects types
+    Edit <input> name attributes with your projects types
+    Edit <input> value attributes with your projects types
 */
 
 const Portfolionav = ({ setWebsiteType, resetWebsiteType }) => {

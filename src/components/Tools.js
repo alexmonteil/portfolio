@@ -7,18 +7,26 @@ configureAnchors({offset: -60, scrollDuration: 200});
 
 /* 
 Edit Tools section:
-    Search for icons to use at: https://fontawesome.com/icons?d=gallery
-    Icons have 2 keys identifying them:
-        1- a prefix such as: fa, fab, or other
-        2- an icon name such as: html5, node, github, or other
-    Replace the prefix name and icon name in the icon attribute within the FontAwesomeIcon tags below
-    Edit the icon text after the br tag to reflect your icon's name
-    Each icon has 2 classes:
-        1- 'icon' which should NOT be removed
-        2- 'iconName' such as: 'iconHtml5' which you can edit or replace with your custom class
-    To add a custom class to an icon to change its glowing color:
-        1- Create your class in the Tools.css file
-        2- Replace the second class in the className attribute with your new class name
+
+Inside the file 'src/components/Tools.js'
+
+- Search for icons to use at: https://fontawesome.com/icons?d=gallery
+- I recommend using no more than 12 icons.
+
+Icons have an array of 2 strings identifying them:
+
+- a prefix such as: 'fa', 'fab', or other
+- an icon name such as: 'html5', 'node', 'github', or other
+
+Each icon has 2 classes inside the `className` attribute:
+
+- 'icon' which should NOT be removed
+- 'iconName' such as: 'iconHtml5' which you can edit or replace with your custom class
+
+To add a custom class to an icon to change its hover effect:
+
+- Create your class in the file located at: 'src/components/Tools.css'
+- inside the file 'src/components/Tools.js' inside the <FontAwesomeIcon> tag edit the 'className' attribute and replace the second class with your new custom class.
 */
     
 
