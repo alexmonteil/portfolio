@@ -8,9 +8,9 @@ configureAnchors({offset: -60, scrollDuration: 200});
 /* 
 
 Edit Contact Section:
-    1st a tag: Paste your email address in href attribute after mailto:
-    2nd a tag: Replace href attribute with your linkedin profile URL
-    3rd a tag: Replace href attribute with your github profile URL
+    1st <a> tag: Paste your email address in href attribute following the format 'mailto:youremail@example.com'
+    2nd <a> tag: Replace href attribute with your linkedin profile URL
+    3rd <a> tag: Replace href attribute with your github profile URL
 */
 
 const Contact = () => {
@@ -19,7 +19,7 @@ const Contact = () => {
             <div className='contactstyle vh-100 w-100 center'>
                 <h1 className='contacttitle shadow-1 center br3'>Contact</h1>
                 <div className='mailsection w-70 center ma4'>
-                    <h2 className='f1 mb5 center dosisFont'>Send me an email :</h2>
+                    <h2 className='f1 mb5 center dosisFont'>Send me an email</h2>
                     <a className='clickToMailButton' href='#'>Email me</a>
                 </div>
                 <h2 className='f2 ma5 center dosisFont'>Here are my social media platforms</h2>

@@ -106,7 +106,7 @@ Inside `src/projects/projects.js`
 
 - Create a GitHub repository to store screenshots of your projects
 - Upload screenshots of your projects to the repository
-- Paste the URL addresses to your screenshots in the `tumbnails` sections of your JSON file
+- Paste the URL addresses to your screenshots in the `thumbnails` sections of your JSON file
 
 
 ### Step 2 - THE TEMPLATE
