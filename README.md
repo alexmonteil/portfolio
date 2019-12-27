@@ -106,7 +106,7 @@ Inside `src/projects/projects.js`
 
 - Create a GitHub repository to store screenshots of your projects
 - Upload screenshots of your projects to the repository
-- Paste the URL addresses to your screenshots in the `thumbnails` sections of your JSON file
+- inside the `src/projects/projects.js` file update the `thumbnail` property of each object with the corresponding URL to the screenshot of the project
 
 
 ### Step 2 - THE TEMPLATE
@@ -343,7 +343,7 @@ library.add(fab, fas, fapostgre, faheroku);
 
 ### Step 2 - STYLES
 
-Change the color theme of the website ( choose 2 colors to create a gradient ):
+Change the color theme of the Heade, choose 2 colors to create a gradient
 
 - inside `src/components/Header.css`, within the `.overlay` class, edit the `background` property with your colors in rgba format.
 
