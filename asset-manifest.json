@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/reactfolio/static/css/main.e8ac4712.chunk.css",
-    "main.js": "/reactfolio/static/js/main.81b64080.chunk.js",
-    "main.js.map": "/reactfolio/static/js/main.81b64080.chunk.js.map",
+    "main.css": "/reactfolio/static/css/main.f16f1e0d.chunk.css",
+    "main.js": "/reactfolio/static/js/main.35f32b1f.chunk.js",
+    "main.js.map": "/reactfolio/static/js/main.35f32b1f.chunk.js.map",
     "runtime~main.js": "/reactfolio/static/js/runtime~main.3beff066.js",
     "runtime~main.js.map": "/reactfolio/static/js/runtime~main.3beff066.js.map",
     "static/css/2.31dafeb2.chunk.css": "/reactfolio/static/css/2.31dafeb2.chunk.css",
     "static/js/2.4e36794d.chunk.js": "/reactfolio/static/js/2.4e36794d.chunk.js",
     "static/js/2.4e36794d.chunk.js.map": "/reactfolio/static/js/2.4e36794d.chunk.js.map",
     "index.html": "/reactfolio/index.html",
-    "precache-manifest.62f87ac62a76bad07378f9942e33ff55.js": "/reactfolio/precache-manifest.62f87ac62a76bad07378f9942e33ff55.js",
+    "precache-manifest.d931d533302cac4b4043b9766305d5f8.js": "/reactfolio/precache-manifest.d931d533302cac4b4043b9766305d5f8.js",
     "service-worker.js": "/reactfolio/service-worker.js",
     "static/css/2.31dafeb2.chunk.css.map": "/reactfolio/static/css/2.31dafeb2.chunk.css.map",
-    "static/css/main.e8ac4712.chunk.css.map": "/reactfolio/static/css/main.e8ac4712.chunk.css.map",
+    "static/css/main.f16f1e0d.chunk.css.map": "/reactfolio/static/css/main.f16f1e0d.chunk.css.map",
     "static/media/Header.css": "/reactfolio/static/media/Header-img.3fa9fdee.png"
   }
 }
