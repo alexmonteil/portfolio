@@ -21,7 +21,7 @@ const Header = () => {
                         <br/>
                         <h1 className='f1 fw3 f-subheadline-l'>Welcome to my Portfolio !</h1>
                         <br/>
-                        <a href='#About' className='toAboutButton mt2'>About Me</a>
+                        <a href='#About' className='toSectionButton mt2'>About Me</a>
                     </div>
                 </article>
             </div>

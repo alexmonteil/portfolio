@@ -20,7 +20,7 @@ const Contact = () => {
                 <h1 className='contacttitle shadow-1 center br3'>Contact</h1>
                 <div className='mailsection w-70 center ma4'>
                     <h2 className='f1 mb5 center dosisFont'>Send me an email</h2>
-                    <a className='clickToMailButton' href='#'>Email me</a>
+                    <a className='toSectionButton' href='#'>Email me</a>
                 </div>
                 <h2 className='f2 ma5 center dosisFont'>Here are my social media platforms</h2>
                 <div className='contactgrid w-40 center'>

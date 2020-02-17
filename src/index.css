@@ -1,3 +1,4 @@
+/* CSS Reset */
 *,
 *::after,
 *::before {
@@ -5,6 +6,7 @@
   padding: 0;
 }
 
+/* Basic layout properties */
 html, body {
   box-sizing: border-box;
   margin: 0;
