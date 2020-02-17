@@ -135,7 +135,7 @@ Inside the file `src/components/Header.js`
       <br/>
       <h1 className='f1 fw3 f-subheadline-l'>Welcome to my Portfolio !</h1>
       <br/>
-      <a href='#About' className='toAboutButton mt2'>About Me</a>
+      <a href='#About' className='toSectionButton mt2'>About Me</a>
     </div>
   </article>
 </div>
@@ -159,7 +159,7 @@ Inside the file `src/components/About.js`
     <p>Fourth paragraph about yourself</p>
     <hr className='w-80 center' />
     <p className='mb4'>Thanks for viewing my portfolio</p>
-    <a href='#Portfolio' className='mv2 toPortfolioButton'>Portfolio</a>
+    <a href='#Portfolio' className='mv2 toSectionButton'>Portfolio</a>
   </article> 
 </div>
 ```
@@ -297,7 +297,7 @@ Inside the file `src/components/Contact.js`
   <h1 className='contacttitle shadow-1 center br3'>Contact</h1>
   <div className='mailsection w-70 center ma4'>
     <h2 className='f1 mb5 center dosisFont'>Send me an email :</h2>
-    <a className='clickToMailButton' href='mailto:yourEmailAddress@example.com'>Email me</a>
+    <a className='toSectionButton' href='mailto:yourEmailAddress@example.com'>Email me</a>
   </div>
   <h2 className='f2 ma5 center dosisFont'>Here are my social media platforms</h2>
   <div className='contactgrid w-40 center'>
