@@ -7,7 +7,7 @@ export const projects = [
     {
         id: "1",
         name: "Project 1",
-        thumbnail: "https://raw.githubusercontent.com/alexmonteil/reactfolio/master/src/thumbnails/binary-vision.png",
+        thumbnail: "https://raw.githubusercontent.com/alexmonteil/projects-screenshots/master/binary-vision.png?token=ALMYFQTCLECJTWVBKBNEORK6OKFF4",
         type: "react",
         description: "Project 1 description here",
         url: "#"
@@ -16,7 +16,7 @@ export const projects = [
     {
         id: "2",
         name: "Project 2",
-        thumbnail: "https://raw.githubusercontent.com/alexmonteil/reactfolio/master/src/thumbnails/starwars-api.png",
+        thumbnail: "https://raw.githubusercontent.com/alexmonteil/projects-screenshots/master/galactic-directory.png?token=ALMYFQTKAFOGFX4BMLH4KHC6OKFHE",
         type: "react",
         description: "Project 2 description here",
         url: "#"
@@ -25,8 +25,8 @@ export const projects = [
     {
         id: "3",
         name: "Project 3",
-        thumbnail: "https://raw.githubusercontent.com/alexmonteil/reactfolio/master/src/thumbnails/robofriends.png",
-        type: "react",
+        thumbnail: "https://raw.githubusercontent.com/alexmonteil/projects-screenshots/master/git-lookup.png?token=ALMYFQQYXVZPCNRKEIS4LKK6OKFIG",
+        type: "javascript",
         description: "Project 3 description here",
         url: "#"
     },
@@ -34,7 +34,7 @@ export const projects = [
     {
         id: "4",
         name: "Project 4",
-        thumbnail: "https://raw.githubusercontent.com/alexmonteil/reactfolio/master/src/thumbnails/background-generator.png",
+        thumbnail: "https://raw.githubusercontent.com/alexmonteil/projects-screenshots/master/task-master.png?token=ALMYFQWO7LCPGZWRGAYBQQ26OKFK2",
         type: "javascript",
         description: "Project 4 description here",
         url: "#"
@@ -43,8 +43,8 @@ export const projects = [
     {
         id: "5",
         name: "Project 5",
-        thumbnail: "https://raw.githubusercontent.com/alexmonteil/reactfolio/master/src/thumbnails/to-do-js.png",
-        type: "javascript",
+        thumbnail: "https://raw.githubusercontent.com/alexmonteil/projects-screenshots/master/loan-calculator.png?token=ALMYFQWIQQA6GKMFOCEXH2S6OKFJO",
+        type: "bootstrap",
         description: "Project 5 description here",
         url: "#"
     },
@@ -52,8 +52,8 @@ export const projects = [
     {
         id: "6",
         name: "Project 6",
-        thumbnail: "https://raw.githubusercontent.com/alexmonteil/reactfolio/master/src/thumbnails/cosmic-dream.png",
-        type: "css",
+        thumbnail: "https://raw.githubusercontent.com/alexmonteil/projects-screenshots/master/reactfolio.png?token=ALMYFQVET34MNDWI4KNMHHC6OKFLW",
+        type: "react",
         description: "Project 6 description here",
         url: "#"
     },
@@ -61,8 +61,8 @@ export const projects = [
     {
         id: "7",
         name: "Project 7",
-        thumbnail: "https://raw.githubusercontent.com/alexmonteil/reactfolio/master/src/thumbnails/startup-page.png",
-        type: "bootstrap",
+        thumbnail: "https://raw.githubusercontent.com/alexmonteil/projects-screenshots/master/background-generator.png?token=ALMYFQUB2N5D4DUUC7YQDDS6OKFEC",
+        type: "css",
         description: "Project 7 description here",
         url: "#"
     }
