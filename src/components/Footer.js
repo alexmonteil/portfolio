@@ -9,7 +9,7 @@ Replace the text between the <a> tags with your name
 const Footer = () => {
     return (
         <div id='Footer' className='footerstyle tc'>
-            <p>&copy; Reactfolio - Created by <a href='#' rel='noopener noreferrer' target='_blank'>John Doe</a></p>
+            <p>&copy; Reactfolio - Created by <a href='#' rel='noopener noreferrer' target='_blank'>john doe</a></p>
         </div>
     );
 }
